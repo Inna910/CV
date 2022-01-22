@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Parisienne&display=swap');
+body {
+  background: url(Assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding: 64px;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  background-color: black;
+  height: 2px;
+  border-style: none;
+}
+h2 {
+  text-transform: uppercase;
+}
+
+table {
+  width: 100%;
+  border-left: 2px solid black;
+  border-spacing: 16px 8px;
+  margin-bottom: 7px;
+}
+ul {
+    font-size: 120%;
+    font-weight: bold;
+}
+#square1 {
+  position: absolute;
+  margin-left: -2px;
+  top: 77px;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}
+#square2 {
+  position: absolute;
+  top: 106px;
+  margin-left: -2px;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}
+#square3 {
+  position: absolute;
+  top: 135px;
+  margin-left: -2px;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}
+#square4 {
+    position: relative;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+#square5 {
+    position: relative;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+#square6 {
+    position: relative;
+    top: 12px;
+    width: 8px;
+    height: 8px;
+    background-color: black;
+}
+.root-container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 40px 24px 36px;
+}
+.contact-block {
+  background: gold;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-item {
+  padding: 12px 24px;
+  font-family: Arial, serif;
+  font-size: 87.5%;
+  /* 1em = 100% = 16 px */
+}
+.info {
+  background: gold;
+  width: 360px;
+  margin: 20px 10px 0 10px;
+}
+.name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+.name h1 {
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+.phrase {
+  font-family: 'Parisienne', cursive;
+  font-size: 160%;
+  padding: 20px 10px;
+  color: white;
+  background-color: black;
+  opacity: 80%;
+}
+.phrase>p {
+margin: 0;
+}
+.about-me {
+  font-family: "Open Sans", sans-serif;
+  font-size: 87.5%;
+}
+.main-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 87.5%;
+  margin: 20px;
+}
+.upper-block {
+  font-weight: bold;
+}
+.exp {
+  padding-bottom: 30px;
+}
+.skills {
+  margin-bottom: 35px;
+}
+.likes {
+  margin-bottom: 35px;
+}
+.left-down-info {
+    margin: 20px;
+}
+/*.line{*/
+/*    !*height: 65px;*!*/
+/*    !*width: 2px;*!*/
+/*    !*background-color: black;*!*/
+/*    !*position: relative;*!*/
+/*    !*top: 75px;*!*/
+
+/*}*/
